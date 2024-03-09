@@ -70,10 +70,67 @@
 // console.log(arrays);
 
 
-const arr = [1,2,3,4,6,];
+// const arr = [1,2,3,4,6,];
 
-console.log(arr.length);
+// console.log(arr.length);
 
-const newLengthOfArr = arr.push(100);
+// const newLengthOfArr = arr.push(100);
 
-console.log(arr, newLengthOfArr);
+// console.log(arr, newLengthOfArr);
+
+
+
+// function sum(a, b) {
+//     let sum = a + b;
+  
+//     return sum;
+//   }
+//   sum(5,5);
+
+//   // IMPURE FUNCTION
+//   function sum2(a, b) {
+//     console.log("abcd"); // side effect
+  
+//     return a + b;
+//   }
+//   const addtion = sum2(1,2);
+// console.log(addtion);
+
+//   let count = 99;
+  
+//   // IMpure FUNCTION
+//   function sum3(a, b) {
+//     count = 1; // side effect
+//     return a + b;
+//   }
+  
+// function greet(name = "kk") {
+    
+//     console.log(`Hello, ${name}!`);
+    
+//   }
+//   greet(undefined);
+
+
+//   function greet(name = "Nathan") {
+    
+//     console.log(`Hello, ${name}!`);
+    
+//   }
+//   greet(undefined);
+
+
+// console.log(5%3);
+// console.log(10%3);
+
+
+const obj = {
+    name: "shashi",
+    age:16,
+    addresss:"Mumbai"
+};
+
+for (const key in obj){
+    console.log(key + ":" +obj);
+}
+
