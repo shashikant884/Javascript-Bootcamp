@@ -83,8 +83,45 @@
 
 // Slice method
 
-const arr = [10,20,30,40,50]; 
-const arr1 = arr.slice(1,2);
-const arr2 = arr.slice(2,4);
-console.log(arr1);//20
-console.log(arr2, "2-4");//30
+// const arr = [10,20,30,40,50]; 
+// const arr1 = arr.slice(1,2);
+// const arr2 = arr.slice(2,4);
+// console.log(arr1);//20
+// console.log(arr2, "2-4");//30 , 40
+
+
+//splice method
+// const arr = [10,20,30,40,50]; 
+// const arr1 = arr.splice(2,5);
+// console.log( arr1); // 30,40,50
+// console.log( arr); // 10,20
+
+
+//reverse an array
+
+// const arr = [0,9,8,7,6,5,4,3,2,1];
+// let reversArr =[];
+// for(let i=arr.length-1; i>=0; i--){
+//     reversArr.push(arr[i]); 
+     
+
+// }
+// console.log(reversArr); 
+
+// const arr = [0,9,8,7,6,5,4,3,2,1];
+// const arrReverse = arr.reverse();
+// console.log(arrReverse);
+
+
+// const originalArr = [10,20,30,40,50]; 
+// console.log(originalArr);
+
+// let reversArr = [];
+
+// originalArr.forEach((element)=> {
+//     reversArr.unshift(element);
+
+// });
+
+// console.log(reversArr,"Revers Array");
+
