@@ -68,5 +68,18 @@
 
 // conditional operators (Ternary operators)
  
-const userRole = "admin";
-userRole === "admin" ? console.log("you are an admin") : console.log("you are not an admin");
+// const userRole = "admin";
+// userRole === "admin" ? console.log("you are an admin") : console.log("you are not an admin");
+
+
+
+//comparison operators
+// ==
+// !=
+// ===
+// <
+// >
+// <=
+// >=
+
+

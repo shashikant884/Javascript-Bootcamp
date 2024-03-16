@@ -106,4 +106,31 @@
 //     }
 // }
 // console.log(a, "4");
+ 
+//for loop
+// for(let i=1; i<=5; i++){
+//     console.log("Shashikant");
+// }
+
+//while loop
+// let i=1;
+// while( i <5){
+//     console.log(i)
+//     i++;
+// }
+
+// do-while loop
+// let i=1;
+// do{
+//     console.log(i)
+//     i++
+// }
+// while(i<5)
+
+
+// for in loop
+obj = {stud1 : 1, stud2 : 2, stud3 : 3 }
+    for(let key in obj){
+        console.log(key ,obj[key]);
+    }
 
