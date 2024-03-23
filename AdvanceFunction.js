@@ -81,3 +81,43 @@
 // const result = sum(10,20);
 // console.log(result, "Result");
 
+
+// function abc(a, b){
+//     console.log(a);
+//     console.log(b);
+
+// }
+// abc(1, 2);
+// abc("1","shashikant");
+// abc([1,2,3,45,], {name : "shashi"});
+
+// abc(
+//     ()=>{
+//         console.log("a");
+//     },
+//     function (){
+//         console.log("b");
+//     }
+
+// );
+
+// function abc(){
+//     const obj = {
+//         name : "Shashikant"
+//     };
+//     console.log(obj);
+//     function sum(){
+//         console.log("I am a function and not result");
+
+//     }
+//     return sum;
+// }
+// const result = abc();
+// console.log(result);
+
+
+// function greet(){
+//     console.log("Hello function");
+
+// }
+// greet();    

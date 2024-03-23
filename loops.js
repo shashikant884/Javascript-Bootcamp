@@ -129,8 +129,22 @@
 
 
 // for in loop
-obj = {stud1 : 1, stud2 : 2, stud3 : 3 }
-    for(let key in obj){
-        console.log(key ,obj[key]);
-    }
+// obj = {stud1 : 1, stud2 : 2, stud3 : 3 }
+//     for(let key in obj){
+//         console.log(key ,obj[key]);
+//     }
+
+// let number=10;
+// if(number<5){
+//     console.log("the number is less the five");
+// }else{
+//     console.log("else part :")
+// }
+
+// const number = prompt("Enter a number:");
+// if(number>0){
+//     console.log("The Number is positive")
+// }else{
+//     console.log("the Number is nat positive")
+// }
 
