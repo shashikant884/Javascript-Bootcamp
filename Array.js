@@ -125,3 +125,19 @@
 
 // console.log(reversArr,"Revers Array");
 
+
+
+// const  arr= Array();
+// console.log(arr);
+
+// const arr = [1,2,3,5,6,7,8,9];
+// console.log( arr.length);
+
+
+console.log("Start...")
+
+setTimeout (function ab() {
+    console.log("ab...");
+},5000);
+
+console.log("End");
