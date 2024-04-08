@@ -78,19 +78,64 @@
 
 
 
-const divContainerNewElement = document.createElement("div");
+// const divContainerNewElement = document.createElement("div");
 
-// step 2
-divContainerNewElement.innerText = `Hey there I am Created`
-divContainerNewElement.classList.add("red")
+// // step 2
+// divContainerNewElement.innerText = `Hey there I am Created`
+// divContainerNewElement.classList.add("red")
 
-// step 3
+// // step 3
 
-const bodyElement = document.body;
-bodyElement.append(divContainerNewElement)
+// const bodyElement = document.body;
+// bodyElement.append(divContainerNewElement)
 
 // const divContianer = document.getElementById("container")
 // divContianer.append(divContainerNewElement);
 // divContianer.before(divContainerNewElement);
 // divContianer.after(divContainerNewElement);
+
+// const headingdiv = document.querySelector(".headingdiv");
+
+// const parent = headingdiv.parentNode;
+
+// console.log(parent);
+
+
+// const parent = document.querySelector(".parent");
+
+
+// console.log(parent.childNodes);
+
+// const headingdiv = document.querySelector(".headingdiv");
+
+// console.log(headingdiv.nextElementSibling);
+
+
+// const heading = document.querySelector("#heading");
+// heading.innerHTML = "web dev is osm...";
+// heading.style.color = 'red';
+// heading.style.fontSize = "100";
+
+// const paregraph = document.createElement("p");
+// paregraph.innerHTML = "I am from javascript";
+
+// const parent = document.querySelector(".parent");
+// parent.appendChild(paregraph);
+// console.log(paregraph); 
+
+
+// const subheading= document.createElement("h1");
+// subheading.innerHTML = "I am there.......";
+// parent.insertAdjacentElement("afterbegin" , subheading)
+
+// console.log(parent); 
+
+const button = document.getElementsByClassName(".btn");
+const heding1 = document.getElementsByClassName(".heding1");
+
+console.log(button)
+
+button.addEventListener('click', function(){
+    console.log("button Clicked");
+});
 
